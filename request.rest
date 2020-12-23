@@ -1,0 +1,13 @@
+GET http://localhost:3000/api/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FtaXIiLCJpYXQiOjE2MDg3NTE1NjZ9.djbvKXRlqqAzpPpAf1bKJgjDPrX_kq1XucI94Kxucfk
+
+
+
+################################
+
+POST http://localhost:3000/api/login
+Content-Type: application/json
+
+{
+    "username": "Samir"
+}
